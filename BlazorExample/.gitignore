@@ -1,0 +1,16 @@
+# Binários e ficheiros de build
+[Bb]in/
+[Oo]bj/
+
+# Configurações do Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Configurações do VS Code
+.vscode/
+
+# Ficheiros de sistema
+.DS_Store
+Thumbs.db

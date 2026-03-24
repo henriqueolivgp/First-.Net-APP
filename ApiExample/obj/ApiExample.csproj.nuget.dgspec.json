@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/henrycoding/Documents/GitHub/.NET-App-Teste/ApiExample/ApiExample.csproj": {}
+    "/home/coding/Documents/Github/.NET-App-Teste/ApiExample/ApiExample.csproj": {}
   },
   "projects": {
-    "/home/henrycoding/Documents/GitHub/.NET-App-Teste/ApiExample/ApiExample.csproj": {
+    "/home/coding/Documents/Github/.NET-App-Teste/ApiExample/ApiExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/henrycoding/Documents/GitHub/.NET-App-Teste/ApiExample/ApiExample.csproj",
+        "projectUniqueName": "/home/coding/Documents/Github/.NET-App-Teste/ApiExample/ApiExample.csproj",
         "projectName": "ApiExample",
-        "projectPath": "/home/henrycoding/Documents/GitHub/.NET-App-Teste/ApiExample/ApiExample.csproj",
-        "packagesPath": "/home/henrycoding/.nuget/packages/",
-        "outputPath": "/home/henrycoding/Documents/GitHub/.NET-App-Teste/ApiExample/obj/",
+        "projectPath": "/home/coding/Documents/Github/.NET-App-Teste/ApiExample/ApiExample.csproj",
+        "packagesPath": "/home/coding/.nuget/packages/",
+        "outputPath": "/home/coding/Documents/Github/.NET-App-Teste/ApiExample/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/henrycoding/.nuget/NuGet/NuGet.Config"
+          "/home/coding/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.312/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

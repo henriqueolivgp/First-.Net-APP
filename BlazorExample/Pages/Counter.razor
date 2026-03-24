@@ -1,16 +1,25 @@
-﻿@page "/counter"
+﻿// 1. Define a rota para chegar a este componente (ex: http://localhost:porta/counter)
+@page "/counter"
 
 <PageTitle>Counter</PageTitle>
 
 <h1>Counter</h1>
 
+<!-- 2. O prefixo '@' antes de 'currentCount' diz ao Blazor para injetar aqui 
+     o valor da variável C# que está definida no bloco @code abaixo. -->
 <p role="status">Current count: @currentCount</p>
 
+<!-- 3. '@onclick' é a ligação de um evento no Blazor. 
+     Quando o botão for clicado, executa o método C# 'IncrementCount'. -->
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
+// 4. O bloco '@code' é onde escrevemos a lógica da nossa interface (C#).
 @code {
+    // 5. O estado do componente. Sempre que este valor mudar, o HTML que depende
+    // dele (neste caso, o parágrafo na linha 9) será atualizado automaticamente.
     private int currentCount = 0;
 
+    // 6. O método que é chamado pelo botão. Aumenta o contador em 1.
     private void IncrementCount()
     {
         currentCount++;

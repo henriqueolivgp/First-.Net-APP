@@ -13,49 +13,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = BlazorExample
 build_property.RootNamespace = BlazorExample
-build_property.ProjectDir = /home/henrycoding/Documents/GitHub/.NET-App-Teste/BlazorExample/
+build_property.ProjectDir = /home/coding/Documents/Github/.NET-App-Teste/BlazorExample/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/henrycoding/Documents/GitHub/.NET-App-Teste/BlazorExample
+build_property.MSBuildProjectDirectory = /home/coding/Documents/Github/.NET-App-Teste/BlazorExample
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[/home/henrycoding/Documents/GitHub/.NET-App-Teste/BlazorExample/App.razor]
+[/home/coding/Documents/Github/.NET-App-Teste/BlazorExample/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/henrycoding/Documents/GitHub/.NET-App-Teste/BlazorExample/Pages/Counter.razor]
+[/home/coding/Documents/Github/.NET-App-Teste/BlazorExample/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/henrycoding/Documents/GitHub/.NET-App-Teste/BlazorExample/Pages/FetchProducts.razor]
+[/home/coding/Documents/Github/.NET-App-Teste/BlazorExample/Pages/FetchProducts.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hQcm9kdWN0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/henrycoding/Documents/GitHub/.NET-App-Teste/BlazorExample/Pages/Home.razor]
+[/home/coding/Documents/Github/.NET-App-Teste/BlazorExample/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/henrycoding/Documents/GitHub/.NET-App-Teste/BlazorExample/Pages/Weather.razor]
+[/home/coding/Documents/Github/.NET-App-Teste/BlazorExample/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/henrycoding/Documents/GitHub/.NET-App-Teste/BlazorExample/Shared/NavMenu.razor]
+[/home/coding/Documents/Github/.NET-App-Teste/BlazorExample/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/henrycoding/Documents/GitHub/.NET-App-Teste/BlazorExample/_Imports.razor]
+[/home/coding/Documents/Github/.NET-App-Teste/BlazorExample/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/henrycoding/Documents/GitHub/.NET-App-Teste/BlazorExample/Layout/MainLayout.razor]
+[/home/coding/Documents/Github/.NET-App-Teste/BlazorExample/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L01haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-czvw6jv6sr
 
-[/home/henrycoding/Documents/GitHub/.NET-App-Teste/BlazorExample/Layout/NavMenu.razor]
+[/home/coding/Documents/Github/.NET-App-Teste/BlazorExample/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L05hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-f3vhpg8zl9

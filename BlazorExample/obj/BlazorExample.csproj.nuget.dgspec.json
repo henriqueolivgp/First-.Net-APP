@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/henrycoding/Documents/GitHub/.NET-App-Teste/BlazorExample/BlazorExample.csproj": {}
+    "/home/coding/Documents/Github/.NET-App-Teste/BlazorExample/BlazorExample.csproj": {}
   },
   "projects": {
-    "/home/henrycoding/Documents/GitHub/.NET-App-Teste/BlazorExample/BlazorExample.csproj": {
+    "/home/coding/Documents/Github/.NET-App-Teste/BlazorExample/BlazorExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/henrycoding/Documents/GitHub/.NET-App-Teste/BlazorExample/BlazorExample.csproj",
+        "projectUniqueName": "/home/coding/Documents/Github/.NET-App-Teste/BlazorExample/BlazorExample.csproj",
         "projectName": "BlazorExample",
-        "projectPath": "/home/henrycoding/Documents/GitHub/.NET-App-Teste/BlazorExample/BlazorExample.csproj",
-        "packagesPath": "/home/henrycoding/.nuget/packages/",
-        "outputPath": "/home/henrycoding/Documents/GitHub/.NET-App-Teste/BlazorExample/obj/",
+        "projectPath": "/home/coding/Documents/Github/.NET-App-Teste/BlazorExample/BlazorExample.csproj",
+        "packagesPath": "/home/coding/.nuget/packages/",
+        "outputPath": "/home/coding/Documents/Github/.NET-App-Teste/BlazorExample/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/henrycoding/.nuget/NuGet/NuGet.Config"
+          "/home/coding/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -56,13 +56,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0, )",
+              "version": "[9.0.14, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0, )",
+              "version": "[9.0.14, )",
               "autoReferenced": true
             }
           },
@@ -80,7 +80,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[9.0.0, 9.0.0]"
+              "version": "[9.0.14, 9.0.14]"
             }
           ],
           "frameworkReferences": {
@@ -88,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.312/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

@@ -1,0 +1,19 @@
+# --- .NET Core ---
+bin/
+obj/
+publish/
+
+# --- User Secrets (Segurança) ---
+# O .NET guarda isto fora da pasta do projeto por padrão, 
+# mas é bom garantir que ficheiros de segredos não sobem.
+secrets.json
+
+# --- Bases de Dados Locais ---
+*.db
+*.db-shm
+*.db-wal
+*.mdf
+*.ldf
+
+# --- Logs ---
+*.log

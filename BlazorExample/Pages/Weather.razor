@@ -1,4 +1,7 @@
-﻿@page "/weather"
+﻿﻿// 1. Rota para este componente.
+@page "/weather"
+// 2. A diretiva '@inject' pede ao sistema de Injeção de Dependências um serviço do tipo 'HttpClient'.
+// Guardamos esse serviço na variável 'Http', que usaremos para fazer pedidos (requests) à API/servidor.
 @inject HttpClient Http
 
 <PageTitle>Weather</PageTitle>
@@ -7,10 +10,13 @@
 
 <p>This component demonstrates fetching data from the server.</p>
 
+<!-- 3. Bloco de controlo C# misturado com HTML. 
+     Se os dados (forecasts) ainda não chegaram, mostramos "Loading..." -->
 @if (forecasts == null)
 {
     <p><em>Loading...</em></p>
 }
+<!-- 4. Se já tivermos dados, construímos a tabela HTML. -->
 else
 {
     <table class="table">
@@ -23,6 +29,8 @@ else
             </tr>
         </thead>
         <tbody>
+            <!-- 5. O '@foreach' itera pelo array de previsões ('forecasts').
+                 Para cada elemento, geramos uma nova linha (<tr>) de tabela. -->
             @foreach (var forecast in forecasts)
             {
                 <tr>
@@ -36,14 +44,21 @@ else
     </table>
 }
 
+// 6. Bloco lógico (C#).
 @code {
+    // 7. Array que guardará os resultados meteorológicos. Começa como 'null'.
     private WeatherForecast[]? forecasts;
 
+    // 8. Este é um método do Ciclo de Vida do componente Blazor. 
+    // Executa de forma assíncrona automaticamente quando a página é carregada pela primeira vez.
     protected override async Task OnInitializedAsync()
     {
+        // 9. Usa o 'Http' (injetado na linha 4) para ir buscar um ficheiro JSON,
+        // desserializando-o logo para um array de objetos C# do tipo 'WeatherForecast'.
         forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
     }
 
+    // 10. Definição da estrutura (classe) que representa a previsão para um dia.
     public class WeatherForecast
     {
         public DateOnly Date { get; set; }
@@ -52,6 +67,7 @@ else
 
         public string? Summary { get; set; }
 
+        // 11. Propriedade calculada. Tal como na API C#, calcula o Fahrenheit a partir dos Celsius.
         public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
     }
 }
